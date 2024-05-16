@@ -1,0 +1,36 @@
+.active{
+    color:orange;
+}
+
+/* Tailwind CSS classes or custom CSS */
+
+/* Adjusting the container to prevent overlap and ensure proper layout */
+.dropdown-container {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #630fe1;
+    border-radius: 0.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    position: static; /* Ensures it takes up space in the document flow */
+}
+
+.dropdown-link {
+    font-size: 1rem;
+    color: #fcfcfc;
+    text-decoration: none;
+    padding: 0.5rem 0;
+    transition: color 0.3s ease;
+}
+
+.dropdown-link:hover {
+    color: #FAA327; /* Hover color */
+}
+
+/* Styles for the parent container to ensure column layout */
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Adjust the gap between items */
+}

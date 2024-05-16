@@ -1,0 +1,175 @@
+/* CSS equivalent */
+.btn {
+    position: relative;
+    background-color: #FFDC90;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    /* Rounded full */
+    transition: all 0.3s ease-in-out;
+    /* Transition all properties */
+}
+
+.btn:hover {
+    transition-duration: 0.3s;
+    -webkit-box-shadow: inset 1px 3px 4px 1px rgba(94, 93, 94, 1);
+    -moz-box-shadow: inset 1px 3px 4px 1px rgba(94, 93, 94, 1);
+    box-shadow: inset 1px 3px 4px 1px rgba(94, 93, 94, 1);
+    -webkit-box-shadow: inset -1px -1px 5px 0px rgba(117, 115, 117, 1);
+    -moz-box-shadow: inset -1px -1px 5px 0px rgba(117, 115, 117, 1);
+    box-shadow: inset -1px -1px 5px 0px rgba(117, 115, 117, 1);
+}
+
+/* CSS equivalent */
+.icon {
+    position: absolute;
+    z-index: 10;
+    top: 50px;
+    left: 50px;
+}
+
+/* CSS equivalent */
+.dot1_container {
+    position: absolute;
+
+    top: 21px;
+    left: 21px;
+    transition-property: width, height;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+}
+
+/* CSS equivalent */
+.btn:hover .dot1 {
+    width: 100px;
+    height: 100px;
+
+}
+
+
+
+
+
+
+/* CSS equivalent */
+.dot2_container {
+    position: absolute;
+    top: 60px;
+    left: 12px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover .dot2 {
+    transition-duration: 0.9s;
+    transform: translate(-20px, -50px);
+}
+
+
+.dot3_container {
+    position: absolute;
+    top: 50px;
+    left: 9px;
+    transition: transform 10s ease-in-out;
+}
+
+.btn:hover .dot3 {
+    transition-duration: 0.9s;
+    transform: translate(-20px, -18px);
+}
+
+.headingf {
+    position: absolute;
+    color: var(--Secondary, #890000);
+    text-align: center;
+    font-family: "Jacques Francois";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    top:160px;
+    left:44px;
+}
+
+.headingf2 {
+    position: absolute;
+    color: var(--Secondary, #890000);
+    text-align: center;
+    font-family: "Jacques Francois";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    top:160px;
+    left:18px;
+}
+
+.headingf3 {
+    position: absolute;
+    color: var(--Secondary, #890000);
+    text-align: center;
+    font-family: "Jacques Francois";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    top:160px;
+    left:18px;
+}
+
+.headingf4 {
+    position: absolute;
+    color: var(--Secondary, #890000);
+    text-align: center;
+    font-family: "Jacques Francois";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    top:160px;
+    left:20px;
+}
+
+.headingf5 {
+    position: absolute;
+    color: var(--Secondary, #890000);
+    text-align: center;
+    font-family: "Jacques Francois";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    top:160px;
+    left:-36px;
+}
+.headingf6 {
+    position: absolute;
+    color: var(--Secondary, #890000);
+    text-align: center;
+    font-family: "Jacques Francois";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    top:160px;
+    left:7px;
+}
+
+.fac1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem; /* Gap between flex items */
+    text-align: center; 
+    overflow: hidden;
+}
+
+.fac1:hover{
+    overflow: visible;
+}

@@ -1,0 +1,22 @@
+input[type="radio"]{
+    accent-color: #ce831a;
+     height: 15px;
+    width: 15px;
+    
+  }
+
+  input[type="checkbox"]{
+    accent-color: #ce831a;
+    height: 15px;
+    width: 15px;
+  }
+
+  .dropdown-wrapper {
+    position: relative;
+  }
+  
+  .dropdown-wrapper select:focus + .below-content {
+    position: relative;
+    z-index: 1;
+  }
+  

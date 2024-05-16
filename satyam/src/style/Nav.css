@@ -1,0 +1,15 @@
+.nav-items{
+    display:flex;
+    list-style: none;
+    text-align: center;
+    justify-content:space-around;
+    position: relative;
+    font-size: large;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color:white;
+
+    }
+
