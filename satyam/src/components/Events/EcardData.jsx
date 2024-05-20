@@ -1,19 +1,19 @@
 export const EventCardData = [
     {
         id:1,
-        image:"/images/Ecard1.png",
+        image:"satyam\public\Ecard1.png",
         Cname:"card",
         aosDelay:"0",
     },
     {
         id:2,
-        image:"/images/Ecard2.png",
+        image:"satyam\public\Ecard2.png",
         Cname:"card",
         aosDelay:"500",
     },
     {
         id:3,
-        image:"/images/Ecard3.png",
+        image:"satyam\public\Ecard3.png",
         Cname:"card",
         aosDelay:"1000",
     },
